@@ -27,3 +27,7 @@ if n1<0:
 else:
     print(f"{n1} es un numero positivo")
 
+
+nivelAgua=float(input("Digite la cantidad de agua de la represa: "))
+print(f"El nivel de agua es: {nivelAgua}")
+
