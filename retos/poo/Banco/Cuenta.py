@@ -1,7 +1,6 @@
 #numeroCuenta, Saldo
 class Cuenta:
-    def __init__(self,cedula, numero_cuenta, saldo):
-        self.cedula_usuario=cedula
+    def __init__(self, numero_cuenta, saldo):
         self.numero_cuenta=numero_cuenta
         self.saldo=saldo
     
@@ -11,9 +10,6 @@ class Cuenta:
     def get_numero(self):
         return self.numero_cuenta
 
-    def get_celula(self):
-        return self.celula
-
 
     def set_saldo(self,saldo):
         self.saldo=saldo
@@ -21,6 +17,4 @@ class Cuenta:
     def set_numero(self,numero):
         self.numero_cuenta=numero
 
-    def set_celula(self,celula):
-        self.celula=celula
     

@@ -1,9 +1,9 @@
-#nombre, apellido, celula
+#nombre, apellido, cedula
 class Cliente:
-    def __init__(self, name, apellido, celula):
+    def __init__(self, name, apellido, cedula):
         self.nombre=name
         self.apellido=apellido
-        self.celula=celula
+        self.cedula=cedula
     
     def get_nombre(self):
         return self.nombre
@@ -11,8 +11,8 @@ class Cliente:
     def get_apellido(self):
         return self.apellido
     
-    def get_celula(self):
-        return self.celula
+    def get_cedula(self):
+        return self.cedula
     
     def set_nombre(self,nombre):
         self.nombre=nombre
@@ -20,7 +20,7 @@ class Cliente:
     def set_apellido(self, apellido):
         self.apellido=apellido
     
-    def set_celula(self,celula):
-        self.celula=celula
+    def set_cedula(self,cedula):
+        self.cedula=cedula
     
     
